@@ -15,7 +15,6 @@ namespace AppGessa.ViewModels
         private string password;
         private bool isRunning;
         private bool isEnabled;
-        private bool isRememberd;
 
         #endregion
 
@@ -37,8 +36,8 @@ namespace AppGessa.ViewModels
         }
         public bool IsRememberd
         {
-            get { return this.isRememberd; }
-            set { SetValue(ref this.isRememberd, value); }
+            get;
+            set;
         }
 
         public bool IsEnabled
